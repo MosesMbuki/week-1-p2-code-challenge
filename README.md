@@ -1,12 +1,53 @@
-# React + Vite
+Expense Tracker App 📊
+A simple yet powerful Expense Tracker built with React + Vite and a mock backend using JSON Server. 
+🔗 Live Demo: [Coming Soon]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features ✨
+✅ Add Expenses – Log new expenses with details (name, description, price, date).
+✅ Delete Expenses – Remove unwanted entries.
 
-Currently, two official plugins are available:
+Frontend	React, Vite, Tailwind CSS
+Mock Backend	JSON Server (db.json)
+Deployment	Vercel (Frontend), Render (Backend)
+How to Run Locally 🚀
+1. Clone the Repository
+bash
+Copy
+git clone https://github.com/your-username/expense-tracker.git
+cd expense-tracker
+2. Install Dependencies
+bash
+Copy
+npm install
+3. Start the Mock Backend (JSON Server)
+bash
+Copy
+npm run server
+Runs on http://localhost:3001
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+4. Start the React App
+bash
+Copy
+npm run dev
+Runs on http://localhost:3000
 
-## Expanding the ESLint configuration
+How It Works 🔧
+Adding an Expense
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Fill the form → Submit → Saved in db.json.
+
+Deleting an Expense
+
+Click Delete → Removes from db.json.
+
+License 📜
+MIT © Moses Mutitu
+
+I am having trouble deploying my backend with render it keeps giving an error
+The error says
+        npm error Missing script: "build"
+        npm error
+        npm error To see a list of scripts, run:
+        npm error   npm run
+        npm error A complete log of this run can be found in: /opt/render/.cache/_logs 2025-04-13T12_00_16_843Z-debug-0.log
+i am working on this!
