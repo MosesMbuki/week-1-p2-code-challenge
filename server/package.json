@@ -12,6 +12,7 @@
   "description": "",
   "dependencies": {
     "cors": "^2.8.5",
+    "esbuild": "^0.25.2",
     "json-serve": "^0.1.0",
     "json-server": "^0.17.4"
   }
